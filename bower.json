@@ -1,0 +1,28 @@
+{
+	"name": "kawari.js",
+	"description": "Programmable pseudo AI KAWARI 8 on JavaScript",
+	"main": "kawari-828/build/mach/em/kawari.js",
+	"ignore": [
+		"**/.*",
+		"bower_components",
+		"node_modules",
+		"npm-debug.log",
+		"coverage",
+		"kawari-828/bin",
+		"kawari-828/build/conv.sh",
+		"kawari-828/build/BUILD.TXT",
+		"kawari-828/build/src",
+		"kawari-828/build/contrib",
+		"kawari-828/build/mach/gcc",
+		"kawari-828/build/mach/cygwin",
+		"kawari-828/build/mach/darwin",
+		"kawari-828/build/mach/freebsd",
+		"kawari-828/build/mach/linux",
+		"kawari-828/build/mach/mingw"
+	],
+	"author": {
+		"name": "narazaka",
+		"url": "http://narazaka.net/"
+	},
+	"license": "MIT"
+}

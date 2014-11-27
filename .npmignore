@@ -1,0 +1,16 @@
+**/.*
+node_modules
+bower_components
+npm-debug.log
+coverage
+kawari-828/bin
+kawari-828/build/conv.sh
+kawari-828/build/BUILD.TXT
+kawari-828/build/src
+kawari-828/build/contrib
+kawari-828/build/mach/gcc
+kawari-828/build/mach/cygwin
+kawari-828/build/mach/darwin
+kawari-828/build/mach/freebsd
+kawari-828/build/mach/linux
+kawari-828/build/mach/mingw
