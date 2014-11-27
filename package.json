@@ -1,6 +1,6 @@
 {
 	"name": "kawari.js",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Programmable pseudo AI KAWARI 8 on JavaScript",
 	"homepage": "",
 	"main": "kawari-828/build/mach/em/kawari.js",
@@ -8,7 +8,7 @@
 		"name": "narazaka",
 		"url": "http://narazaka.net/"
 	},
-	"license": "MIT",
+	"license": "BSD-3-Clause",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Narazaka/kawari.js.git"
