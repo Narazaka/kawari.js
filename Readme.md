@@ -32,7 +32,7 @@ So use the wrapper module, [nativeshiori](https://github.com/Narazaka/nativeshio
     <script>
     
     var kawarirc_str = 'System.Callback.OnGET: test\r\n';
-    var kawarirc = Encoding.convert(Encoding.stringToCode(request), 'SJIS', 'UNICODE');
+    var kawarirc = Encoding.convert(Encoding.stringToCode(kawarirc_str), 'SJIS', 'UNICODE');
     var storage = {
       'kawarirc.kis': new Uint8Array(kawarirc) // filename: ArrayBufferView
     };
