@@ -19,7 +19,9 @@
 		"kawari/build/mach/freebsd",
 		"kawari/build/mach/linux",
 		"kawari/build/mach/mingw",
-		"kawari/build/mach/js"
+		"kawari/build/mach/js",
+		"Makefile",
+		"gcc.mak.patch"
 	],
 	"author": {
 		"name": "narazaka",
