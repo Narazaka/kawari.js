@@ -1,9 +1,9 @@
 {
 	"name": "kawari.js",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Programmable pseudo AI KAWARI 8 on JavaScript",
 	"homepage": "",
-	"main": "kawari-828/build/mach/em/kawari.js",
+	"main": "kawari.js",
 	"author": {
 		"name": "narazaka",
 		"url": "http://narazaka.net/"

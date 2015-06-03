@@ -1,0 +1,19 @@
+--- src/gcc.mak	Wed Jun 03 22:39:34 2015
++++ src2/gcc.mak	Wed Jun 03 22:39:06 2015
+@@ -8,14 +8,14 @@
+ #==========================================================================
+ 
+ ## choose your target: cygwin, mingw, linux, freebsd, darwin
+-MACH_TYPE = mingw
++MACH_TYPE = js
+ 
+ ## output name
+ SHIORI = shiori
+ 
+ ## if you have 'upx' and want to use it
+ # UPX = upx
+-UPX = upx
++#UPX = upx
+ 
+ ## if you want to use STLport, set STLport=yes
+ # STLport = yes

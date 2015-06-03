@@ -1,0 +1,3 @@
+[submodule "kawari"]
+	path = kawari
+	url = git@github.com:kawari/kawari.git
