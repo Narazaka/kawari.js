@@ -15,6 +15,10 @@ Do not report bugs or something that is caused by kawari.js to KAWARI Developmen
 Installation
 ---------------------------------------
 
+    npm install kawari.js
+
+or
+
     bower install kawari.js
 
 or download zip archive and get kawari.js
@@ -59,4 +63,4 @@ Build
 LICENSE
 --------------------------------
 
-(C) 2014 Narazaka : Licensed under [The BSD 3-Clause License](http://narazaka.net/license/BSD3?2014)
+(C) 2016 Narazaka : Licensed under [The BSD 3-Clause License](http://narazaka.net/license/BSD3?2016)
