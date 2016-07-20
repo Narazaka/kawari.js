@@ -1,16 +1,16 @@
 {
-	"name": "kawari.js",
-	"version": "0.0.4",
-	"description": "Programmable pseudo AI KAWARI 8 on JavaScript",
-	"homepage": "",
-	"main": "kawari.js",
-	"author": {
-		"name": "narazaka",
-		"url": "http://narazaka.net/"
-	},
-	"license": "BSD-3-Clause",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Narazaka/kawari.js.git"
-	}
+  "name": "kawari.js",
+  "version": "0.1.0",
+  "description": "Programmable pseudo AI KAWARI 8 on JavaScript",
+  "homepage": "",
+  "main": "kawari.js",
+  "author": {
+    "name": "narazaka",
+    "url": "http://narazaka.net/"
+  },
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Narazaka/kawari.js.git"
+  }
 }
