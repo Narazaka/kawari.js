@@ -1,0 +1,14 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: trzeci/emscripten:latest
+    steps:
+      - checkout
+      - run: |
+          git submodule sync
+          git submodule update --init
+      - run: make -R
+      - store_artifacts:
+          path: ./lib
+      - run: make test
