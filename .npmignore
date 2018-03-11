@@ -1,8 +1,0 @@
-**/.*
-node_modules
-bower_components
-npm-debug.log
-coverage
-kawari
-Makefile
-gcc.mak.patch

@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: trzeci/emscripten:latest
+    steps:
+      - checkout
+      - run: |
+          git submodule sync
+          git submodule update --init
+      - run: make -R
+      - store_artifacts:
+          path: ./lib
+      - run: make test
+      - deploy:
+          command: |
+            if [ "${CIRCLE_TAG}" != "" ] ; then
+              echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+              npm publish
+            fi

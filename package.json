@@ -3,7 +3,11 @@
   "version": "0.2.0",
   "description": "Programmable pseudo AI KAWARI 8 on JavaScript",
   "homepage": "",
-  "main": "kawari.js",
+  "main": "index.js",
+  "files": [
+    "wasm.js",
+    "lib"
+  ],
   "author": {
     "name": "narazaka",
     "url": "http://narazaka.net/"
@@ -12,5 +16,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Narazaka/kawari.js.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.4",
+    "nativeshiori": "^2.3.1"
   }
 }
