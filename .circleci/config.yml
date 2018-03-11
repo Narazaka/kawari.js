@@ -12,3 +12,9 @@ jobs:
       - store_artifacts:
           path: ./lib
       - run: make test
+      - deploy:
+          command: |
+            if [ "${CIRCLE_TAG}" != "" ] ; then
+              echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
+              npm publish
+            fi
