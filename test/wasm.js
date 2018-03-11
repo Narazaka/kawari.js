@@ -1,4 +1,4 @@
 const test = require("./lib/core");
-const kawariInstantiate = require("../lib/wasm/kawari");
+const newKawari = require("../lib/wasm/kawari");
 
-test(kawariInstantiate);
+test(newKawari);

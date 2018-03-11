@@ -5,8 +5,8 @@ const assert = require("assert");
 
 const crlf = "\x0d\x0a";
 
-module.exports = function (kawariInstantiate) {
-  const loadKawari = () => new Promise((resolve) => kawariInstantiate(resolve));
+module.exports = function (newKawari) {
+  const loadKawari = () => new Promise((resolve) => newKawari(resolve));
   describe("Kawari", () => {
     const kawarircContent = `System.Callback.OnGET: test${crlf}System.Callback.OnNOTIFY: $(save save.txt foo)${crlf}foo: bar${crlf}`;
     const kawarirc = Encoding.convert(Encoding.stringToCode(kawarircContent), "SJIS", "UNICODE");
